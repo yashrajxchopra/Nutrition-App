@@ -36,7 +36,7 @@ xhr.addEventListener('readystatechange', function () {
                         <p>Fibre: ${response[i].fiber_g} g</p>
                         <p>Potassium: ${response[i].potassium_mg} mg</p>
                         <p>Sugars: ${response[i].sugar_g} g</p>
-                        <p>Sodium: ${response[i].sodium_mg} g</p>
+                        <p>Sodium: ${response[i].sodium_mg} mg</p>
                        </div>`
         }
         document.getElementById('nutritionInfo').innerHTML = output
